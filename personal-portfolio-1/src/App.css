@@ -1,0 +1,140 @@
+Body{
+  background-color: #2C1033;
+  
+  
+}
+
+.pic{
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  /* color: #FFFFFF; */
+  align-items: center;
+  height: 60px;
+  background-color:#30302D;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 15px;
+  border-radius: 15px;
+}
+
+.links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 15px;
+  padding-right: 25px;
+  align-self: flex-start;
+  margin-left: auto;
+  
+}
+
+.list a:hover {
+  color: maroon;
+
+}
+
+.links a:hover {
+  color: maroon;
+
+}
+
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header{
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.about {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 40vh;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  background-color:#30302D;
+  font-size: 1.5rem;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.info{
+  display: flex;
+  color: #FFFFFF;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #30302D;
+  min-height: 40vh;
+  border-radius: 15px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-1{
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.projects{
+  display: flex;
+  color: #FFFFFF;
+  flex-direction: column;
+  align-items: center;
+  background-color: #30302D;
+  min-height: 10vh;
+  border-radius: 15px;
+}
+
+.header-2{
+  text-align: center;
+  color: #FFFFFF;
+
+}
+.projects a:hover {
+  color: maroon;
+
+}
+
+.bottom{
+  align-items: center;
+  color: #FFFFFF;
+  display: flex;
+  border-radius: 15px;
+  height: 30px;
+  justify-content: center;
+  padding: auto;
+
+}
+
+.bottom-list{
+  align-items: center;
+  height: 10px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 20px;
+  border-radius: 15px;
+ 
+
+}
+
+
+
