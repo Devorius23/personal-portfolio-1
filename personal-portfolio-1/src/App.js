@@ -7,12 +7,14 @@ const App = () => {
     <>
       <div className="BG">
         <header>
-        <ol className="list">
+        <ul className="list">
           <li><a href="#About Me">About Me</a></li>
           <li><a href="#Projects">Projects</a></li>
           <li><a href="#Contact Me">Contact Me</a></li>
           <li><a href="#Resume">Resume</a></li>
-        </ol>
+          <li><a href="https://www.linkedin.com/in/devorius-harris-softwareengineer/"> Linkedin</a></li>
+          <li><a href="https://github.com/Devorius23"> Github</a></li>
+        </ul>
         </header>
 
         <div className="content">
@@ -21,14 +23,8 @@ const App = () => {
           <section id="Contact Me"></section>
         </div>
 
-        <ul className="links">
-          <li><a href="https://www.linkedin.com/in/devorius-harris-softwareengineer/"> Linkedin</a></li>
-          <li><a href="https://github.com/Devorius23"> Github</a></li>
 
-        </ul>
-
-
-        <img className="pic" src="./Port.jpg" alt="" />
+        {/* <img className="pic" src="./Port.jpg" alt="" /> */}
 
 
         <div>

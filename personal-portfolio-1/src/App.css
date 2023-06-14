@@ -18,7 +18,6 @@ Body{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  box-sizing: border-box;
   gap: 15px;
   border-radius: 15px;
 }
@@ -33,11 +32,6 @@ Body{
   align-self: flex-start;
   margin-left: auto;
   
-}
-
-.list a:hover {
-  color: maroon;
-
 }
 
 .links a:hover {
@@ -57,10 +51,11 @@ a {
 }
 
 .about {
-  text-align: center;
+  /* text-align: center; */
   display: flex;
   flex-direction: column;
-  min-height: 40vh;
+  max-height: 500px;
+  max-width: 550px;
   color: #FFFFFF;
   box-sizing: border-box;
   background-color:#30302D;
@@ -76,7 +71,8 @@ a {
   justify-content: center;
   align-items: center;
   background-color: #30302D;
-  min-height: 40vh;
+  max-width: 300px;
+  max-width: 300px;
   border-radius: 15px;
 }
 
@@ -89,6 +85,7 @@ a {
 .info-1{
   text-align: center;
   color: #FFFFFF;
+  border-radius: 7px;
 }
 
 .projects{
