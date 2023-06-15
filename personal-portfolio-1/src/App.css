@@ -10,7 +10,6 @@ Body{
 }
 
 .list {
-  /* color: #FFFFFF; */
   align-items: center;
   height: 60px;
   background-color:#30302D;
@@ -20,21 +19,12 @@ Body{
   justify-content: center;
   gap: 15px;
   border-radius: 15px;
+  align-self: first baseline;
+  font-size: 1.2rem;
+  justify-content: space-evenly;
 }
 
-.links {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  gap: 15px;
-  padding-right: 25px;
-  align-self: flex-start;
-  margin-left: auto;
-  
-}
-
-.links a:hover {
+.list a:hover {
   color: maroon;
 
 }
@@ -132,6 +122,15 @@ a {
  
 
 }
+
+ ul{
+  justify-content: flex-end;
+
+}
+
+
+
+
 
 
 

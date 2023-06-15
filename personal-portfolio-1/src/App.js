@@ -1,21 +1,25 @@
 import './App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
+
+
+
+
 
 
 const App = () => {
 
   return (
     <>
-      <div className="BG">
-        <header>
-        <ul className="list">
-          <li><a href="#About Me">About Me</a></li>
-          <li><a href="#Projects">Projects</a></li>
-          <li><a href="#Contact Me">Contact Me</a></li>
-          <li><a href="#Resume">Resume</a></li>
-          <li><a href="https://www.linkedin.com/in/devorius-harris-softwareengineer/"> Linkedin</a></li>
-          <li><a href="https://github.com/Devorius23"> Github</a></li>
-        </ul>
-        </header>
+          <ul className="list">
+            <li><a href="#About Me">About Me</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact Me">Contact Me</a></li>
+            <li><a href="#Resume">Resume</a></li>
+            <li><a href="https://www.linkedin.com/in/devorius-harris-softwareengineer/"> <FontAwesomeIcon icon={faLinkedin} /></a></li>
+            <li><a href="https://github.com/Devorius23"> <FontAwesomeIcon icon={faGithub} /></a></li> 
+          </ul>
+
 
         <div className="content">
           <section id="About Me"></section>
@@ -56,7 +60,7 @@ const App = () => {
           <h2 className="header-2">Projects</h2>
           <div className="projects">
             <ol type="i" >
-              <li><a href='https://radiant-hollows-59694.herokuapp.com/api/tasks/'> Big Body Lifts</a></li>
+              <li><a href=''> About Me</a></li>
 
             </ol>
           </div>
@@ -64,10 +68,8 @@ const App = () => {
             <p>Copyright &copy;. All Rights Reserved.</p>
           </footer>
         </div>
-
-      </div>
     </>
-      
+
   );
 }
 
