@@ -1,6 +1,7 @@
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
+import {faGithub, faLinkedin,} from '@fortawesome/free-brands-svg-icons'
+import { faCode } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -11,7 +12,9 @@ const App = () => {
 
   return (
     <>
-          <ul className="list">
+        <nav>
+          <ul>
+          <li><a href="http://localhost:3001/" ><FontAwesomeIcon icon={faCode} /></a></li>
             <li><a href="#About Me">About Me</a></li>
             <li><a href="#Projects">Projects</a></li>
             <li><a href="#Contact Me">Contact Me</a></li>
@@ -19,6 +22,7 @@ const App = () => {
             <li><a href="https://www.linkedin.com/in/devorius-harris-softwareengineer/"> <FontAwesomeIcon icon={faLinkedin} /></a></li>
             <li><a href="https://github.com/Devorius23"> <FontAwesomeIcon icon={faGithub} /></a></li> 
           </ul>
+          </nav>
 
 
         <div className="content">

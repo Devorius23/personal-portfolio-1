@@ -9,25 +9,53 @@ Body{
   justify-content: center;
 }
 
-.list {
+nav ul {
   align-items: center;
   height: 60px;
   background-color:#30302D;
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   gap: 15px;
   border-radius: 15px;
-  align-self: first baseline;
   font-size: 1.2rem;
-  justify-content: space-evenly;
+
+
 }
 
-.list a:hover {
+nav a:hover {
   color: maroon;
 
 }
+
+nav ul {
+  justify-content: flex-end;
+}
+
+nav li:first-child{
+  margin: 0 auto;
+  order: 2;
+  padding-right: 15%;
+  font-size: x-large;
+
+}
+
+nav li:nth-child(2),
+nav li:nth-child(3),
+nav li:nth-child(4),
+nav li:nth-child(5){
+  order: 1;
+
+}
+
+nav li:nth-child(6),
+nav li:nth-child(7){
+  order: 3;
+  padding-right: 3%;
+
+}
+
+
 
 
 a {
