@@ -9,19 +9,22 @@ Body{
   justify-content: center;
 }
 
+
 nav ul {
   align-items: center;
   height: 60px;
   background-color:#30302D;
+  align-self: flex-start;
+  justify-content: flex-start;
   list-style-type: none;
   display: flex;
   flex-direction: row;
   gap: 15px;
   border-radius: 15px;
   font-size: 1.2rem;
-
-
+  margin-top: -6px;
 }
+
 
 nav a:hover {
   color: maroon;
@@ -76,7 +79,7 @@ a {
   max-width: 550px;
   color: #FFFFFF;
   box-sizing: border-box;
-  background-color:#30302D;
+  /* background-color:#30302D; */
   font-size: 1.5rem;
   justify-content: center;
   border-radius: 15px;

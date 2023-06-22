@@ -1,6 +1,6 @@
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faGithub, faLinkedin,} from '@fortawesome/free-brands-svg-icons'
+import {faGithub,faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -12,6 +12,7 @@ const App = () => {
 
   return (
     <>
+  
         <nav>
           <ul>
           <li><a href="http://localhost:3001/" ><FontAwesomeIcon icon={faCode} /></a></li>
@@ -32,12 +33,9 @@ const App = () => {
         </div>
 
 
-        {/* <img className="pic" src="./Port.jpg" alt="" /> */}
-
-
         <div>
           <h2 className="header">About Me</h2>
-          <p className="about"> Hi, my name Devorius and I am a alumni of the General Assembly immerssive software engineering course. I have experience in management, and working in a team environment both in person, and remote. I enjoy learning new technologies, and continue to push myself and my skills to new heights. I specialize in full-stack MERN/PERN (MongoDB, PostgreSQL, Express.js, React.js, Node.js) and RESTful APIs.  On my free time I enjoy working out, traveling, atv riding, playing video games, sports both watching and playing. I'm also a big family guy!</p>
+          <p className="about"> Hi, my name is Devorius and I am a alumni of the General Assembly immerssive software engineering course. I have experience in management, and working in a team environment both in person, and remote. I enjoy learning new technologies, and continue to push myself and my skills to new heights. I specialize in full-stack MERN/PERN (MongoDB, PostgreSQL, Express.js, React.js, Node.js) and RESTful APIs.  On my free time I enjoy working out, traveling, atv riding, playing video games, sports both watching and playing. I'm also a big family guy!</p>
 
         </div>
 
@@ -63,8 +61,13 @@ const App = () => {
         <div >
           <h2 className="header-2">Projects</h2>
           <div className="projects">
+            {/* <ul className="pros">
+              <li><FontAwesomeIcon icon={faPython}/></li>
+              <li><FontAwesomeIcon icon={faReact}/></li>
+              <li><FontAwesomeIcon icon={faJs}/></li>
+            </ul> */}
             <ol type="i" >
-              <li><a href=''> About Me</a></li>
+              <li><a href='https://app.netlify.com/sites/charming-donut-1fc45a/deploys'> About Me</a></li>
 
             </ol>
           </div>
