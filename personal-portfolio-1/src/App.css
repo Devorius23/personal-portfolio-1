@@ -4,6 +4,27 @@ Body {
 
 }
 
+@media (min-width: 300px) {
+  body {
+    display: flex;
+  }
+
+  .row {
+    display: flex;
+    gap: 15px;
+    height: 80px;
+    width: 100%;
+
+  }
+
+  .about {
+    display: flex;
+    padding-left: 22%;
+  }
+
+
+}
+
 .pic {
   display: flex;
   justify-content: center;
@@ -189,9 +210,6 @@ a {
 }
 
 @media (min-width: 300px) {
-  body {
-    display: flex;
-  }
 
   .row {
     display: flex;
