@@ -1,33 +1,6 @@
 Body {
   background-color: #2C1033;
 
-
-}
-
-@media (min-width: 300px) {
-  body {
-    display: flex;
-  }
-
-  .row {
-    display: flex;
-    gap: 15px;
-    height: 80px;
-    width: 100%;
-
-  }
-
-  .about {
-    display: flex;
-    padding-left: 22%;
-  }
-
-
-}
-
-.pic {
-  display: flex;
-  justify-content: center;
 }
 
 .row {
@@ -209,10 +182,18 @@ a {
   cursor: pointer;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 350px) {
+  body{
+    display: flex;
+  }
+
+  .port{
+    height: 45%;
+  }
 
   .row {
     display: flex;
+    flex-direction: row;
     gap: 15px;
     height: 80px;
     width: 100%;
